@@ -1,0 +1,77 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e58]: Create a user profile card component
+            - img [ref=e61]
+          - generic [ref=e82]:
+            - img [ref=e85]
+            - generic [ref=e90]:
+              - generic [ref=e93]: Creating /App.jsx
+              - separator [ref=e94]
+              - generic [ref=e97]: Creating /components/UserProfileCard.jsx
+              - separator [ref=e98]
+              - generic [ref=e99]:
+                - paragraph [ref=e100]: "Done! I've created a user profile card component with:"
+                - list [ref=e101]:
+                  - listitem [ref=e102]:
+                    - strong [ref=e103]: Avatar
+                    - text: with circular image and border
+                  - listitem [ref=e104]:
+                    - strong [ref=e105]: User info
+                    - text: (name, title, location)
+                  - listitem [ref=e106]:
+                    - strong [ref=e107]: Bio section
+                  - listitem [ref=e108]:
+                    - strong [ref=e109]: Stats
+                    - text: showing followers and following counts
+                  - listitem [ref=e110]:
+                    - strong [ref=e111]: Action buttons
+                    - text: (Follow and Message)
+                  - listitem [ref=e112]:
+                    - strong [ref=e113]: Gradient header
+                    - text: and hover effects
+                  - listitem [ref=e114]:
+                    - strong [ref=e115]: Responsive design
+                    - text: with Tailwind styling
+                - paragraph [ref=e116]: The component accepts props for customization and includes sample data in the App.jsx demo.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [selected] [ref=e32]
+          - tab "Code" [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - iframe [ref=e81]:
+        - generic [ref=f2e6]:
+          - img "Sarah Anderson" [ref=f2e8]
+          - heading "Sarah Anderson" [level=2] [ref=f2e9]
+          - paragraph [ref=f2e10]: Product Designer
+          - generic [ref=f2e11]:
+            - img [ref=f2e12]
+            - generic [ref=f2e15]: San Francisco, CA
+          - paragraph [ref=f2e16]: Creating beautiful and intuitive user experiences
+          - generic [ref=f2e17]:
+            - generic [ref=f2e18]:
+              - paragraph [ref=f2e19]: 2,840
+              - paragraph [ref=f2e20]: Followers
+            - generic [ref=f2e21]:
+              - paragraph [ref=f2e22]: "342"
+              - paragraph [ref=f2e23]: Following
+          - generic [ref=f2e24]:
+            - button "Follow" [ref=f2e25] [cursor=pointer]:
+              - img [ref=f2e26]
+              - text: Follow
+            - button "Message" [ref=f2e28] [cursor=pointer]:
+              - img [ref=f2e29]
+              - text: Message
+  - alert [ref=e48]

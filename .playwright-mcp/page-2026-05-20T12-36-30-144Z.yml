@@ -1,0 +1,151 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e58]: Create a user profile card component
+            - img [ref=e61]
+          - generic [ref=e82]:
+            - img [ref=e85]
+            - generic [ref=e90]:
+              - generic [ref=e93]: Creating /App.jsx
+              - separator [ref=e94]
+              - generic [ref=e97]: Creating /components/UserProfileCard.jsx
+              - separator [ref=e98]
+              - generic [ref=e99]:
+                - paragraph [ref=e100]: "Done! I've created a user profile card component with:"
+                - list [ref=e101]:
+                  - listitem [ref=e102]:
+                    - strong [ref=e103]: Avatar
+                    - text: with circular image and border
+                  - listitem [ref=e104]:
+                    - strong [ref=e105]: User info
+                    - text: (name, title, location)
+                  - listitem [ref=e106]:
+                    - strong [ref=e107]: Bio section
+                  - listitem [ref=e108]:
+                    - strong [ref=e109]: Stats
+                    - text: showing followers and following counts
+                  - listitem [ref=e110]:
+                    - strong [ref=e111]: Action buttons
+                    - text: (Follow and Message)
+                  - listitem [ref=e112]:
+                    - strong [ref=e113]: Gradient header
+                    - text: and hover effects
+                  - listitem [ref=e114]:
+                    - strong [ref=e115]: Responsive design
+                    - text: with Tailwind styling
+                - paragraph [ref=e116]: The component accepts props for customization and includes sample data in the App.jsx demo.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [ref=e32]
+          - tab "Code" [selected] [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - generic [ref=e117]:
+        - generic [ref=e123]:
+          - generic [ref=e124]:
+            - generic [ref=e125] [cursor=pointer]:
+              - img [ref=e126]
+              - img [ref=e128]
+              - generic [ref=e130]: components
+            - generic [ref=e133] [cursor=pointer]:
+              - img [ref=e134]
+              - generic [ref=e139]: UserProfileCard.jsx
+          - generic [ref=e141] [cursor=pointer]:
+            - img [ref=e142]
+            - generic [ref=e147]: App.jsx
+        - separator [ref=e148]
+        - code [ref=e153]:
+          - generic [ref=e154]:
+            - generic [ref=e156]:
+              - generic [ref=e311]: "1"
+              - generic [ref=e161]: "2"
+              - generic [ref=e312]:
+                - generic [ref=e313] [cursor=pointer]: 
+                - generic [ref=e314]: "3"
+              - generic [ref=e316]: "4"
+              - generic [ref=e318]: "5"
+              - generic [ref=e320]: "6"
+              - generic [ref=e176]: "7"
+              - generic [ref=e178]: "8"
+              - generic [ref=e180]: "9"
+              - generic [ref=e182]: "10"
+              - generic [ref=e321]:
+                - generic [ref=e322] [cursor=pointer]: 
+                - generic [ref=e323]: "11"
+              - generic [ref=e324]:
+                - generic [ref=e325] [cursor=pointer]: 
+                - generic [ref=e326]: "12"
+              - generic [ref=e327]:
+                - generic [ref=e328] [cursor=pointer]: 
+                - generic [ref=e329]: "13"
+              - generic [ref=e191]: "14"
+              - generic [ref=e193]: "15"
+              - generic [ref=e195]: "16"
+              - generic [ref=e333]: "17"
+              - generic [ref=e334]:
+                - generic [ref=e335] [cursor=pointer]: 
+                - generic [ref=e336]: "18"
+              - generic [ref=e338]: "19"
+              - generic [ref=e339]:
+                - generic [ref=e340] [cursor=pointer]: 
+                - generic [ref=e341]: "20"
+              - generic [ref=e342]:
+                - generic [ref=e343] [cursor=pointer]: 
+                - generic [ref=e344]: "21"
+              - generic [ref=e346]: "22"
+              - generic [ref=e348]: "23"
+              - generic [ref=e350]: "24"
+              - generic [ref=e353]: "25"
+              - generic [ref=e355]: "26"
+              - generic [ref=e357]: "27"
+              - generic [ref=e359]: "28"
+              - generic [ref=e361]: "29"
+              - generic [ref=e363]: "30"
+              - generic [ref=e365]: "31"
+            - generic [ref=e268]:
+              - generic [ref=e487]: "import { MapPin, Heart, MessageCircle } from 'lucide-react';"
+              - generic [ref=e489]: "export default function UserProfileCard({"
+              - generic [ref=e491]: name = "John Doe",
+              - generic [ref=e493]: title = "Software Engineer",
+              - generic [ref=e495]: bio = "Passionate about building great products",
+              - generic [ref=e497]: avatar = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&
+              - generic [ref=e499]: location = "New York, NY",
+              - generic [ref=e501]: followers = 1200,
+              - generic [ref=e503]: following = 500,
+              - generic [ref=e505]: "}) {"
+              - generic [ref=e507]: return (
+              - generic [ref=e509]: <div className="w-full max-w-sm bg-white rounded-2xl shadow-lg overflow-hidden
+              - generic [ref=e511]: "{/* Header Background */}"
+              - generic [ref=e513]: <div className="h-24 bg-gradient-to-r from-blue-500 to-indigo-600"></div>
+              - generic [ref=e516]: h=400&fit=crop",
+              - generic [ref=e518]: hover:shadow-xl transition-shadow duration-300">
+              - generic [ref=e520]: "{/* Profile Content */}"
+              - generic [ref=e522]: <div className="px-6 pb-6">
+              - generic [ref=e524]: "{/* Avatar */}"
+              - generic [ref=e526]: <div className="flex justify-center -mt-16 mb-4">
+              - generic [ref=e528]: <img
+              - generic [ref=e530]: "src={avatar}"
+              - generic [ref=e532]: "alt={name}"
+              - generic [ref=e534]: className="w-32 h-32 rounded-full border-4 border-white shadow-md
+              - generic [ref=e536]: object-cover"
+              - generic [ref=e538]: />
+              - generic [ref=e540]: </div>
+              - generic [ref=e543]: "{/* Name and Title */}"
+              - generic [ref=e545]: "<h2 className=\"text-2xl font-bold text-gray-900 text-center\">{name}</h2>"
+              - generic [ref=e547]: "<p className=\"text-indigo-600 font-semibold text-center mt-1\">{title}</p>"
+            - textbox "Editor content" [ref=e308]: "<MessageCircle size={18} /> Message </button> </div> </div> </div> ); }"
+  - alert [ref=e48]
+  - generic [ref=e309]:
+    - alert
+    - alert

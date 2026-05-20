@@ -1,0 +1,124 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e58]: Create a user profile card component
+            - img [ref=e61]
+          - generic [ref=e82]:
+            - img [ref=e85]
+            - generic [ref=e90]:
+              - generic [ref=e93]: Creating /App.jsx
+              - separator [ref=e94]
+              - generic [ref=e97]: Creating /components/UserProfileCard.jsx
+              - separator [ref=e98]
+              - generic [ref=e99]:
+                - paragraph [ref=e100]: "Done! I've created a user profile card component with:"
+                - list [ref=e101]:
+                  - listitem [ref=e102]:
+                    - strong [ref=e103]: Avatar
+                    - text: with circular image and border
+                  - listitem [ref=e104]:
+                    - strong [ref=e105]: User info
+                    - text: (name, title, location)
+                  - listitem [ref=e106]:
+                    - strong [ref=e107]: Bio section
+                  - listitem [ref=e108]:
+                    - strong [ref=e109]: Stats
+                    - text: showing followers and following counts
+                  - listitem [ref=e110]:
+                    - strong [ref=e111]: Action buttons
+                    - text: (Follow and Message)
+                  - listitem [ref=e112]:
+                    - strong [ref=e113]: Gradient header
+                    - text: and hover effects
+                  - listitem [ref=e114]:
+                    - strong [ref=e115]: Responsive design
+                    - text: with Tailwind styling
+                - paragraph [ref=e116]: The component accepts props for customization and includes sample data in the App.jsx demo.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [ref=e32]
+          - tab "Code" [active] [selected] [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - generic [ref=e117]:
+        - generic [ref=e123]:
+          - generic [ref=e124]:
+            - generic [ref=e125] [cursor=pointer]:
+              - img [ref=e126]
+              - img [ref=e128]
+              - generic [ref=e130]: components
+            - generic [ref=e133] [cursor=pointer]:
+              - img [ref=e134]
+              - generic [ref=e139]: UserProfileCard.jsx
+          - generic [ref=e141] [cursor=pointer]:
+            - img [ref=e142]
+            - generic [ref=e147]: App.jsx
+        - separator [ref=e148]
+        - code [ref=e153]:
+          - generic [ref=e154]:
+            - generic [ref=e156]:
+              - generic [ref=e159]: "1"
+              - generic [ref=e161]: "2"
+              - generic [ref=e162]:
+                - generic [ref=e163] [cursor=pointer]: 
+                - generic [ref=e164]: "3"
+              - generic [ref=e165]:
+                - generic [ref=e166] [cursor=pointer]: 
+                - generic [ref=e167]: "4"
+              - generic [ref=e168]:
+                - generic [ref=e169] [cursor=pointer]: 
+                - generic [ref=e170]: "5"
+              - generic [ref=e172]:
+                - generic [ref=e173] [cursor=pointer]: 
+                - generic [ref=e174]: "6"
+              - generic [ref=e176]: "7"
+              - generic [ref=e178]: "8"
+              - generic [ref=e180]: "9"
+              - generic [ref=e182]: "10"
+              - generic [ref=e185]: "11"
+              - generic [ref=e187]: "12"
+              - generic [ref=e189]: "13"
+              - generic [ref=e191]: "14"
+              - generic [ref=e193]: "15"
+              - generic [ref=e195]: "16"
+              - generic [ref=e197]: "17"
+              - generic [ref=e199]: "18"
+            - generic [ref=e268]:
+              - generic [ref=e270]: import UserProfileCard from '@/components/UserProfileCard';
+              - generic [ref=e273]: "export default function App() {"
+              - generic [ref=e275]: return (
+              - generic [ref=e277]: <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex
+              - generic [ref=e279]: items-center justify-center p-4">
+              - generic [ref=e281]: <UserProfileCard
+              - generic [ref=e283]: name="Sarah Anderson"
+              - generic [ref=e285]: title="Product Designer"
+              - generic [ref=e287]: bio="Creating beautiful and intuitive user experiences"
+              - generic [ref=e289]: avatar="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&
+              - generic [ref=e291]: h=400&fit=crop"
+              - generic [ref=e293]: location="San Francisco, CA"
+              - generic [ref=e295]: "followers={2840}"
+              - generic [ref=e297]: "following={342}"
+              - generic [ref=e299]: />
+              - generic [ref=e301]: </div>
+              - generic [ref=e303]: );
+              - generic [ref=e305]: "}"
+            - textbox "Editor content" [ref=e308]
+            - generic:
+              - generic:
+                - generic:
+                  - list
+  - alert [ref=e48]
+  - generic [ref=e309]:
+    - alert
+    - alert
