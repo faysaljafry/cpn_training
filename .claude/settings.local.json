@@ -9,7 +9,8 @@
       "Bash(git commit -m ' *)",
       "mcp__playwright__browser_navigate",
       "mcp__playwright",
-      "mcp__playwright__browser_take_screenshot"
+      "mcp__playwright__browser_take_screenshot",
+      "Bash(git pull *)"
     ]
   }
 }
